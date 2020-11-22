@@ -184,11 +184,59 @@ section ul li {
     margin: 1.7em;
     padding: 1.7em;
     border-radius: 20px;
-    width: 1100px;
-    
+    width: 900px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;  
 }
 
-.flats1 {
-    display: flex;
+.card {
     flex-wrap: wrap;
+    background-color: white;
+    border-radius: 0.8em;
+    padding: 0.3em;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.part1 .card {
+    max-width: 450px;
+    display: flex;
+    margin: 10px;
+}
+
+.part1 .card .imgBx  {
+    max-width: 200px;
+    flex: 0 0 150px;
+}
+
+.part1 .card .imgBx img {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-width: 200px;
+}
+
+.part1 .card .content{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;;
+}
+
+.content h4{
+    margin-bottom: -3px;
+}
+.content p{
+    margin-bottom: 3px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    color: #0065FC;
+    margin: 3px;
+    margin-left: 10px;
 }
