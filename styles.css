@@ -318,3 +318,205 @@ section h3{
     font-size: 1.8em;
     margin-bottom: 10px;
 }
+
+.part3 {
+    background-color:none;
+    margin: 1.7em;
+    padding: 1.7em;
+    border-radius: 20px;
+    min-width: 1710px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;  
+}
+
+.card3 {
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 0.8em;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 435px;
+}
+.part3 .card3  {
+    max-width: 400px;
+    min-width: 250px;
+    border: 1px solid #F2F2F2;
+}
+
+.part3 .card3 .imgBx3 img {
+    height: 395px;
+    max-width: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.part3 .card3 .content {
+    margin: 10px;
+    margin-top: -15px;
+}
+
+.card4 {
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 0.8em;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+}
+.part3 .card4  {
+    width: 250px;
+    min-width: 200px;
+    border: 1px solid #F2F2F2;
+    max-height: 250px;
+}
+
+.part3 .card4 .imgBx4 img {
+    height: 200px;
+    width: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.part3 .card4 .content {
+    margin: 10px;
+    margin-top: -15px;
+}
+
+.card5 {
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 0.8em;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+.part3 .card5  {
+    max-width: 250px;
+    min-width: 200px;
+    border: 1px solid #F2F2F2;
+    max-height: 190px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.part3 .card5 .imgBx5 img {
+    height: 150px;
+    width: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.part3 .card5 .content {
+    margin: 10px;
+    margin-top: -15px;
+}
+
+.part4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card6 {
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 0.8em;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 435px;
+}
+.part3 .card6  {
+    max-width: 400px;
+    min-width: 250px;
+    border: 1px solid #F2F2F2;
+}
+
+.part3 .card6 .imgBx6 img {
+    height: 395px;
+    max-width: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.part3 .card6 .content {
+    margin: 10px;
+    margin-top: -15px;
+}
+
+.part5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card7 {
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 0.8em;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+.part3 .card7  {
+    width: 250px;
+    min-width: 200px;
+    border: 1px solid #F2F2F2;
+    height: 220px;
+}
+
+.part3 .card7 .imgBx7 img {
+    height: 180px;
+    width: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.part3 .card7 .content {
+    margin: 10px;
+    margin-top: -15px;
+}
+
+.card8 {
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 0.8em;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+.part3 .card8  {
+    max-width: 250px;
+    min-width: 200px;
+    border: 1px solid #F2F2F2;
+    height: 200px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.part3 .card8 .imgBx8 img {
+    height: 160px;
+    width: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.part3 .card8 .content {
+    margin: 10px;
+    margin-top: -15px;
+}
+
