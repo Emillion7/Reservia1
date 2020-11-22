@@ -77,11 +77,12 @@ p {
     font-size: 15px;
     border-color: #F2F2F2;
     padding-left: 2em;
+    margin-left: 0.5em;
 }
 
 .button {
     position: absolute;
-    right: -19px;
+    right: -27px;
     top: 0;
     width: 100px;
     height: 100%;
@@ -179,12 +180,23 @@ section ul li {
     margin-left: 1em;
 }
 
+section h3{
+    font-size: 1.8em;
+    margin-bottom: -20px;
+    margin-left: 1em;
+}
+
+.container1 {
+    display: flex;
+}
+
 .part1 {
     background-color:#F2F2F2;
     margin: 1.7em;
     padding: 1.7em;
     border-radius: 20px;
-    width: 900px;
+    width: 1100px;
+    min-width: 1100px;
     position: relative;
     display: flex;
     flex-wrap: wrap; 
@@ -200,12 +212,14 @@ section ul li {
     text-align: center;
     display: flex;
     flex-direction: column;
+    min-width: 300px;
 }
 
 .part1 .card {
     max-width: 450px;
     display: flex;
     margin: 10px;
+    max-height: 250px;
 }
 
 .part1 .card .imgBx  {
@@ -217,13 +231,13 @@ section ul li {
     max-width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    min-width: 200px;
+    min-width: 300px;
 }
 
 .part1 .card .content{
     display: flex;
     flex-direction: column;
-    text-align: justify;;
+    text-align: justify;
 }
 
 .content h4{
@@ -239,4 +253,68 @@ section ul li {
     color: #0065FC;
     margin: 3px;
     margin-left: 10px;
+}
+
+.part2 {
+    background-color:#F2F2F2;
+    margin: 1.7em;
+    padding: 1.7em;
+    border-radius: 20px;
+    min-width: 500px;
+    position: relative;
+    display: flex; 
+    justify-content: space-around;
+    float: left;
+    flex-wrap: wrap;
+}
+
+.card2 {
+    background-color: white;
+    border-radius: 0.8em;
+    padding: 0.3em;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+.part2 .card2 {
+    max-width: 450px;
+    display: flex;
+    margin: 10px;
+    min-width: 450px;
+}
+
+.part2 .card2 .imgBx2  {
+    max-width: 220px;
+    flex: 0 0 150px;
+    min-width: 220px;
+    
+}
+
+.part2 .card2 .imgBx2 img {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.container1 .part2 .card2 .content{
+    display: flex;
+    flex-direction: column;
+    margin-left: -0.7em;
+}
+.container1 .part2 .card2 .content .fa-star {
+    margin-top: 50px;
+}
+
+.container1 .part2 h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+.fa-chart-line {
+    margin-top: 5px;
+    font-size: 1.8em;
+    margin-bottom: 10px;
 }
