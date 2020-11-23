@@ -220,6 +220,7 @@ section h3{
     display: flex;
     margin: 10px;
     max-height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .part1 .card .imgBx  {
@@ -282,6 +283,7 @@ section h3{
     display: flex;
     margin: 10px;
     min-width: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .part2 .card2 .imgBx2  {
@@ -610,7 +612,96 @@ footer {
         margin-bottom: -30px;
     }
 
-    section h3{
-    
+    section .container1 .part1 {
+        background-color: white;
+        display: block;
+    }
+    section .container1 .part1 .card {
+        max-width: 450px;
+    }
+    section .container1 .part1 .card .imgBx img{
+        min-width: 450px;
+    }
+
+    section .part3 {
+        display: block;
+    }
+
+    section .part3 .card3 {
+        max-height: 200px;
+        min-width: 430px;
+        margin-bottom: 15px;
+    }
+
+    section .part3 .card3 .imgBx3 img{
+        max-height: 160px;
+        min-width: 430px;
+    }
+
+    section .part4 .card4 {
+        max-height: 200px;
+        min-width: 430px;
+        margin-bottom: 15px;
+    }
+
+    section .part4 .card4 .imgBx4 img{
+        max-height: 160px;
+        min-width: 430px;
+    }
+
+    section .part4 .card5 {
+        max-height: 200px;
+        min-width: 430px;
+        margin-bottom: 15px;
+    }
+
+    section .part4 .card5 .imgBx5 img{
+        max-height: 160px;
+        min-width: 430px;
+    }
+
+    section .part3 .card6 {
+        max-height: 200px;
+        min-width: 430px;
+        margin-bottom: 15px;
+    }
+
+    section .part3 .card6 .imgBx6 img{
+        max-height: 160px;
+        min-width: 430px;
+    }
+
+    section .part5 .card7 {
+        max-height: 200px;
+        min-width: 430px;
+        margin-bottom: 15px;
+    }
+
+    section .part5 .card7 .imgBx7 img{
+        max-height: 160px;
+        min-width: 430px;
+    }
+
+    section .part5 .card8 {
+        max-height: 200px;
+        min-width: 430px;
+        margin-bottom: 15px;
+    }
+
+    section .part5 .card8 .imgBx8 img{
+        max-height: 160px;
+        min-width: 430px;
+    }
+
+    footer {
+        display: block;
+    }
+    .footer1 {
+        margin-left: -30px;
+        margin-bottom: -35px;
+    }
+
+    .footer3 {
+        margin-top: -25px;
     }
 }
