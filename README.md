@@ -1,3 +1,3 @@
-# Reservia1
+# Reservia
 
-my website
+https://emillion7.github.io/Reservia1/
