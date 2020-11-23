@@ -10,7 +10,7 @@ body
 
 .header {
     float: right;
-    margin-top: -110px;
+    margin-top: -90px;
 }
 
 .header a {
@@ -31,7 +31,8 @@ body
 
 .header a:hover {
     color: #0065FC;
-    text-decoration: overline;
+    border-top: solid 2px #0065FC;
+    padding-top: 33px;
 
 }
 
