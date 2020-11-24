@@ -10,7 +10,7 @@ body
 
 .header {
     float: right;
-    margin-top: -90px;
+    margin-top: -110px;
 }
 
 .header a {
@@ -32,7 +32,7 @@ body
 .header a:hover {
     color: #0065FC;
     border-top: solid 2px #0065FC;
-    padding-top: 33px;
+    padding-top: 13px;
 
 }
 
@@ -575,18 +575,23 @@ footer {
 
 
 
-@media all and (max-width: 600px) {
-    body{
+@media all and (max-width: 550px) {
+
+    body {
         min-width: 300px;
     }
 
     .header {
-        display: block;
         margin: 20px auto;
         width: 50%;
         margin-top: -110px;
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .header a {
+        display: inline;
+        padding-top: 0;
     }
      
     section ul {
@@ -603,6 +608,8 @@ footer {
     }
     section .container1 .part2{
         display:block;
+        width: 520px;
+    
     }
     .fa-chart-line {
         margin-left:300px;
