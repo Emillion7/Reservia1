@@ -700,12 +700,12 @@ footer {
       width: 100%;
       margin: 0px;
       border-radius: 0px;
-      padding: 20px;
+      padding: 20px 0px 20px 0px;
       grid-template-rows: 5% 95%;
       height: auto;
     }
     aside h3 {
-      margin: 0;
+      margin: 0 0 0 15px;
       padding: 0px;
     }
     .flexaside {
@@ -744,7 +744,10 @@ footer {
     margin: 0px;
     background: white;
     border-radius: 0px;
-    padding: 20px 20px 40px 20px;
+    padding: 20px 0px 40px 0px;
+  }
+  main h3{
+    padding-left: 15px;
   }
 
   .flexmain {
@@ -765,7 +768,7 @@ footer {
 
   .showmorebtn {
     margin: 20px 0px;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 15px;
   }
 
   article {
@@ -776,13 +779,13 @@ footer {
     grid-gap: 25px;
     height: auto;
     width: 100%;
-    padding: 20px 20px 60px 20px;
+    padding: 20px 0px 60px 0px;
     margin: 0px;
     align-content: center;
   }
   article h3 {
-    margin: 0px;
-    padding: 0px;
+    margin: 0 0 0 15px;
+    padding: 0;
   }
 
   .grid {
@@ -795,6 +798,7 @@ footer {
     align-content: center;
     justify-content: center;
     margin: 0px 0px;
+    padding-right: 0;
   }
 
   .act-text-box {
@@ -905,9 +909,7 @@ footer {
     margin-left: 15px ;
   }
   .fa-chart-line {
-    font-size: 23px;
-    margin-left: -80px;
-    margin-top: 0px;;
+    margin-top: -30px;
   }
 
   aside {
@@ -915,10 +917,13 @@ footer {
     width: 100%;
     margin: 0px;
     border-radius: 0px;
-    padding: 20px;
+    padding: 20px 0 20px 0;
     grid-template-rows: 5% 95%;
     height: auto;
 }
+  aside h3 {
+    padding-left: 15px;
+  }
 
   .flexaside {
     margin: 0;
@@ -932,7 +937,6 @@ footer {
     width: 335px;
     grid-template-columns: 135px 200px;
     background-color: white;
-  
 }
 .mostpop-pic2 {
     width: 335px;
@@ -955,7 +959,11 @@ main {
   margin: 0px;
   background: white;
   border-radius: 0px;
-  padding: 20px 20px 40px 20px;
+  padding: 20px 0px 40px 0px;
+}
+main h3{
+  margin-left: 15px;
+  padding-bottom: 15px;
 }
 
 .showmorebtn {
@@ -965,7 +973,7 @@ main {
 }
 
 .flexmain {
-  margin: 0px 0px 0px 20px;
+  margin: 15px 0px 0px 20px;
   height: auto;
   overflow: visible;
 }
@@ -992,12 +1000,12 @@ article {
   grid-gap: 25px;
   height: auto;
   width: 100%;
-  padding: 20px 20px 60px 20px;
+  padding: 20px 0 60px 0;
   margin: 0px;
   align-content: center;
 }
 article h3 {
-  margin: 0px;
+  margin: 0 0 0 25px;
   padding: 0px;
 }
 
