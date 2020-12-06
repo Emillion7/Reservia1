@@ -160,7 +160,11 @@ nav button:hover {
  
 .fa-info-circle {
   color: #0065FC;
-  margin-left: -840px;
+  margin-left: 0;
+}
+.clear {
+  clear: both;
+  margin-left: 24px;
 }
 
 aside {
@@ -219,7 +223,7 @@ aside h3 {
 .mostpop-pic1 {
   display: grid;
   grid-template-columns: 145px 200px;
-  background-image: url(IMG/most-popular/7.jpg);
+  background-image: url(img/most-popular/7.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom 0px right 200px;
@@ -238,7 +242,7 @@ aside h3 {
 .mostpop-pic2 {
   display: grid;
   grid-template-columns: 145px 200px;
-  background-image: url(IMG/most-popular/8.jpg);
+  background-image: url(img/most-popular/8.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom 0px right 200px;
@@ -257,7 +261,7 @@ aside h3 {
 .mostpop-pic3 {
   display: grid;
   grid-template-columns: 145px 200px;
-  background-image: url(IMG/most-popular/9.jpg);
+  background-image: url(img/most-popular/9.jpg);
   background-size: 147px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -456,7 +460,7 @@ article {
   padding: 30px;
 }
 article h3 {
-  margin: 0;
+  margin: 0 0 0 40px;
   padding: 0;
 }
 
@@ -687,7 +691,7 @@ footer {
     }
     .fa-info-circle {
       color: #0065FC;
-      margin-left: 15px ;
+      margin-left: 0;
     }
     .fa-chart-line {
       font-size: 23px;
@@ -906,7 +910,7 @@ footer {
   }
   .fa-info-circle {
     color: #0065FC;
-    margin-left: 15px ;
+    margin-left: 0;
   }
   .fa-chart-line {
     margin-top: -30px;
@@ -1081,7 +1085,7 @@ footer {
   }
   .fa-info-circle {
     color: #0065FC;
-    margin-left: -850px;
+    margin-left: 0;
   }
   .fa-chart-line {
     font-size: 23px;
