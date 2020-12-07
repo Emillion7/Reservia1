@@ -20,7 +20,6 @@ img.logo-img  {
 }
 
 .top-nav{
-  display:inline-block; 
   float: right;
 }
 ul{
@@ -645,7 +644,7 @@ footer {
       display: block;
       width: 100%;
       margin-bottom: 50px;
-      border-bottom: 2px solid grey;
+      border-bottom: 2px solid #F2F2F2;
     }
     ul{
       padding: 0;
@@ -867,7 +866,7 @@ footer {
     display: block;
     width: 100%;
     margin-bottom: 50px;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #F2F2F2;
   }
   ul{
     padding: 0;
