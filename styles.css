@@ -94,8 +94,7 @@ header button {
     background: #0065FC;
     color: white;
     border: none;
-    font-size: 18px; 
-    padding-inline-end: 1em;
+    font-size: 18px;
     outline: none;
     cursor: pointer;
 }
@@ -200,7 +199,6 @@ aside h3 {
   height: 125px;
   width: 120px;
   border-radius: 0px 15px 15px 0px;
-  padding-top: -30px;
   margin-left: -20px;
   margin-top: -10px;
 }
@@ -679,7 +677,7 @@ footer {
     }
     .search-button i{
       display: block;
-      margin-left: 10px;
+      margin-left: 2px;
     }
     nav {
       display: block;
